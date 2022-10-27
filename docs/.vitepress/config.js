@@ -1,7 +1,7 @@
 export default {
   title: 'hello baby', //站点标题
   description: 'baby docs',//mate标签description，多用于搜索引擎抓取摘要
-  base: "./",
+  base: "/blog/",
   head: [
     [
       'link',
