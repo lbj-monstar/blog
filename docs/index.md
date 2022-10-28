@@ -18,9 +18,8 @@ hero:
 
 features:
   - icon: 😄
-    title: 这是一个
+    title: 这是一个开心图标
     details: wawawa
-    link: /articles/组件库环境搭建
   - icon: 🖖
     title: 这是一个手掌图标
     details: good...

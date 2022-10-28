@@ -16,7 +16,7 @@ export default {
     logo: "/baby.png",
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2019-present Evan You'
+      copyright: 'Copyright © 2019-present LuoFatso'
     },
     socialLinks: [
       { icon: "github", link: "https://gitee.com/geeksdidi" },
