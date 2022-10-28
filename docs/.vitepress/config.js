@@ -30,6 +30,7 @@ export default {
       },
     ],
     nav: [
+      { text: "首页", link: "/" },
       { text: "博客", link: "/articles/组件库环境搭建" },
       { text: "GuideTest", link: "/guide/test" },
       { text: "gitee", link: "https://gitee.com" },
