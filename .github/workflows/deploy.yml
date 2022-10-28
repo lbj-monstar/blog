@@ -15,12 +15,12 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: pnpm
-          cache-dependency-path: blog/pnpm-lock.yaml
-      - run: pnpm install --frozen-lockfile
+          cache: npm
+          cache-dependency-path: blog/package-lock.json
+      - run: npm install
 
       - name: Build
-        run: pnpm build
+        run: npm run build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
