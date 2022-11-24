@@ -22,10 +22,10 @@ jobs:
         run: npm run build
 
      # push actions
-      - name: Deploy to gh-pages
+      - name: Deploy to git-pages
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
-          branch: gh-pages
+          branch: git-pages
           folder: docs/.vitepress/dist
           # preserve old hash files, only when docs change, display commit message
           # defalt true, will automatically delete files

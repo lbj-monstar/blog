@@ -8,7 +8,7 @@
     "build": "vitepress build docs",
     "serve": "vitepress serve docs",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "set -e && vitepress build docs && cd ./docs/.vitepress/dist && git init && git add -A && git commit -m 'deploy' && git push -f git@github.com:lbj-monstar/blog.git master:gh-pages"
+    "deploy": "set -e && vitepress build docs && cd ./docs/.vitepress/dist && git init && git add -A && git commit -m 'deploy' && git push -f git@github.com:lbj-monstar/blog.git master:git-pages"
   },
   "keywords": [],
   "author": "",
