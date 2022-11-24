@@ -19,7 +19,7 @@ export default {
       copyright: 'Copyright © 2019-present LuoFatso'
     },
     socialLinks: [
-      { icon: "github", link: "https://gitee.com/geeksdidi" },
+      { icon: "github", link: "..." },
       { icon: "twitter", link: "..." },
       // You can also add custom icons by passing SVG as string:
       {

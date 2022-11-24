@@ -3,8 +3,8 @@ layout: home
 
 hero:
   name: Hello Baby
-  text: 欢迎查看小胖子记录
-  tagline: 记录每一刻的美好
+  text: 
+  tagline: 记录每一刻的美好吧
   image:
     src: /baby.png
     alt: Baby
